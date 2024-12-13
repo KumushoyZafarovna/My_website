@@ -1,0 +1,38 @@
+.ideas > div {
+  margin-top: 50px;
+}
+.ideas_heading {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.idea1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.idea_headings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  p:first-child {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--black);
+  }
+  p:last-child {
+    font-weight: 400;
+    font-size: 14px;
+    color: #acacac;
+  }
+}
+@media(max-width:770px){
+    .ideas_heading h1{
+        font-size: 20px;
+    }
+    .ideas_heading p{
+        font-size: 10px;
+    }
+}

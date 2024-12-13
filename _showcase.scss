@@ -1,0 +1,61 @@
+// showcase started
+.showcase > div {
+  margin-top: 35px;
+  background-image: url(../../imgs/showcase_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  min-height: 712px;
+  padding: 20px;
+  .elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 120%;
+    color: var(--white);
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #fff;
+  }
+  .showcase_btn button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    padding: 16px 32px;
+    box-shadow: 0 6px 14px 0 rgba(88, 76, 42, 0.2);
+    background: var(--green);
+    border: 1px solid  var(--green);
+    color: var(--white);
+  }
+}
+@media(max-width:750px){
+  .elem_h{
+    font-size: 40px;
+  }
+  .elem_p{
+    font-size: 12px;
+  }
+}
+@media(max-width:300px){
+  .elements h1{
+    font-size: 25px;
+
+  }
+  .elements p{
+    font-size: 10px;
+  }
+}
+// showcase ended

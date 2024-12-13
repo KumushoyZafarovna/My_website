@@ -1,0 +1,32 @@
+.popular_headings {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .style {
+    display: flex;
+    gap: 15px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #acacac;
+  }
+  h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--black);
+  }
+}
+@media(max-width:850px){
+  .popular_headings h1{
+    font-size: 20px;
+  }
+}
